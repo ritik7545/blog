@@ -3,6 +3,8 @@
     flex-direction: column;
     margin-bottom: 23px;
     padding: 15px;
+    position: relative;
+    top: 0;
   }
 
   .nav-left {
@@ -15,6 +17,7 @@
     margin: 15px 0;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 0;
   }
 
   .nav-left ul li {
@@ -24,21 +27,34 @@
   .content {
     flex-direction: column;
     padding: 20px;
+    margin: 20px;
+  }
+
+  .content-left {
+    padding: 20px;
   }
 
   .content-right {
-    display: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .content-right img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
   }
 
   .home-article {
     flex-direction: column;
     margin: 15px 0;
-    padding: 15px;
+    padding: 20px;
   }
 
   .home-article-img {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .home-article img {
@@ -49,6 +65,26 @@
 
   .home-article-content {
     padding: 15px 0;
+    text-align: center;
+  }
+
+  .home-article-content h3 {
+    font-size: 1.3em;
+  }
+
+  .platform-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .platform-card {
+    padding: 15px;
+  }
+
+  .platform-card img {
+    width: 60px;
+    height: 60px;
   }
 
   .year-box {
@@ -104,7 +140,6 @@
 /* Additional breakpoint for smaller devices */
 @media screen and (max-width: 768px) {
   .navigation {
-    height: auto;
     padding: 10px;
   }
 
@@ -116,12 +151,63 @@
     font-size: 18px;
   }
 
-  .content-left {
+  .content-left h1 {
+    font-size: 2em;
+  }
+
+  .content-left p {
+    font-size: 1em;
+  }
+
+  .home-articles {
     padding: 20px;
+    margin: 20px;
+  }
+
+  .home-articles h2 {
+    font-size: 1.5em;
+  }
+
+  .blog-post-content h2 {
+    font-size: 1.5em;
+  }
+
+  .footer {
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .social {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .content-left {
+    padding: 15px;
+  }
+
+  .content-left h1 {
+    font-size: 1.8em;
+  }
+
+  .home-article {
+    padding: 15px;
   }
 
   .home-article-content h3 {
-    font-size: 20px;
+    font-size: 1.2em;
+  }
+
+  .platform-grid {
+    grid-template-columns: 1fr;
   }
 
   .footer {
