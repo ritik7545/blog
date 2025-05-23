@@ -135,6 +135,21 @@
     justify-content: center;
     width: 100%;
   }
+
+  .nav-social {
+    margin-top: 15px;
+    justify-content: center;
+  }
+  
+  .nav-social .social-link {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .nav-social .social-link svg {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 /* Additional breakpoint for smaller devices */
@@ -212,6 +227,20 @@
 
   .footer {
     padding: 20px 10px;
+  }
+
+  .nav-social {
+    gap: 12px;
+  }
+  
+  .nav-social .social-link {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .nav-social .social-link svg {
+    width: 16px;
+    height: 16px;
   }
 }
 
