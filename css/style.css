@@ -46,6 +46,8 @@ body {
 .nav-left {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .nav-left span {
@@ -66,7 +68,7 @@ body {
 .nav-left ul {
   display: flex;
   align-items: center;
-  margin: 0 77px;
+  margin: 0;
   font-size: 22px;
   padding-bottom: 23px;
 }
