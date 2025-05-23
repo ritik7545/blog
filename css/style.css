@@ -320,23 +320,30 @@ body {
 
 /* Learning platforms section */
 .learning-platforms {
-  margin-top: 40px;
+  margin-top: 20px;
+  padding: 0 4px;
+}
+
+.learning-platforms h3 {
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
 .platform-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 8px;
-  margin-top: 10px;
-  max-width: 600px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 6px;
+  margin-top: 8px;
+  max-width: 580px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 5px;
+  padding: 0 4px;
 }
 
 .platform-card {
   background: var(--gradient-card);
-  padding: 8px;
+  padding: 6px;
   border-radius: 6px;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
@@ -346,6 +353,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 140px;
 }
 
 .platform-card:hover {
@@ -355,25 +363,28 @@ body {
 }
 
 .platform-card img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   object-fit: contain;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .platform-card h4 {
-  font-size: 0.95em;
-  margin-bottom: 6px;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+  line-height: 1.2;
 }
 
 .platform-card p {
-  font-size: 0.8em;
-  margin-bottom: 6px;
+  font-size: 0.75em;
+  margin-bottom: 4px;
+  line-height: 1.2;
 }
 
 .platform-link {
-  padding: 4px 12px;
-  font-size: 0.8em;
+  padding: 3px 10px;
+  font-size: 0.75em;
+  margin-top: 4px;
 }
 
 /* Add gradient background to buttons */
