@@ -24,23 +24,23 @@ body {
   background: linear-gradient(135deg, #f6f9fc 0%, #eef2f7 100%);
   color: var(--text-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
-  max-width: 800px;
+  line-height: 1.4;
+  max-width: 550px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 0 5px;
 }
 
 .navigation {
-  margin-top: 15px;
+  margin-top: 10px;
   font-family: var(--font1);
-  height: 60px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3%;
+  padding: 0 2%;
   background: var(--gradient-primary);
   box-shadow: var(--box-shadow);
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .nav-left {
@@ -51,8 +51,8 @@ body {
 }
 
 .nav-left span {
-  font-size: 26px;
-  padding-top: 6px;
+  font-size: 22px;
+  padding-top: 4px;
 }
 
 .nav-left span img {
@@ -69,16 +69,15 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
-  font-size: 18px;
-  padding-bottom: 18px;
+  font-size: 16px;
+  padding-bottom: 15px;
 }
 
 .nav-left ul li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 8px;
   font-family: var(--font2);
   transition: var(--transition);
-  
 }
 
 .nav-left ul li a {
@@ -88,7 +87,6 @@ body {
   padding: 8px 8px;
   border-radius: 5px;
   transition: var(--transition);
-  
 }
 
 .nav-left ul li a:hover {
@@ -100,16 +98,16 @@ body {
 .nav-social {
   display: flex;
   align-items: center;
-  gap: 15px;
-  margin-top: 10px;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 .nav-social .social-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   background: var(--gradient-primary);
   transition: var(--transition);
@@ -121,21 +119,21 @@ body {
 }
 
 .nav-social .social-link svg {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   fill: white;
 }
 
 .content {
   height: 100%;
   display: flex;
-  margin-top: 15px;
-  padding: 15px;
+  margin-top: 10px;
+  padding: 12px;
   position: relative;
   background: var(--gradient-card);
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: var(--box-shadow);
-  max-width: 750px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -145,13 +143,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 15px;
   z-index: 1;
 }
 
 .content-left h1 {
-  font-size: 1.8em;
-  margin-bottom: 10px;
+  font-size: 1.6em;
+  margin-bottom: 8px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -165,43 +163,43 @@ body {
 }
 
 .content-right img {
-  height: 200px;
-  border-radius: 10px;
+  height: 160px;
+  border-radius: 8px;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
 }
 
 .home-articles {
-  padding: 15px;
+  padding: 12px;
   background: var(--gradient-card);
-  margin-top: 12px;
+  margin-top: 10px;
   position: relative;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: var(--box-shadow);
-  max-width: 750px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .home-articles h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 30px;
-  font-size: 2em;
   text-align: center;
 }
 
 .home-article {
   display: flex;
-  margin: 10px;
-  padding: 12px;
+  margin: 8px;
+  padding: 10px;
   background: var(--gradient-card);
-  border-radius: 8px;
+  border-radius: 6px;
   transition: var(--transition);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(52, 152, 219, 0.1);
-  max-width: 700px;
+  max-width: 550px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -213,10 +211,10 @@ body {
 }
 
 .home-article img {
-  width: 160px;
-  min-width: 160px;
-  height: 120px;
-  border-radius: 8px;
+  width: 120px;
+  min-width: 120px;
+  height: 90px;
+  border-radius: 6px;
   object-fit: cover;
   transition: var(--transition);
 }
@@ -227,14 +225,14 @@ body {
 }
 
 .home-article-content h3 {
-  font-size: 1.3em;
-  margin-bottom: 10px;
+  font-size: 1.1em;
+  margin-bottom: 6px;
   color: var(--primary-color);
 }
 
 .home-article-content p {
-  font-size: 0.95em;
-  margin-bottom: 8px;
+  font-size: 0.85em;
+  margin-bottom: 6px;
 }
 
 .home-article-content a {
@@ -249,8 +247,8 @@ body {
 }
 
 .footer {
-  padding: 25px 0;
-  margin-top: 30px;
+  padding: 15px 0;
+  margin-top: 20px;
   background: var(--gradient-footer);
   display: flex;
   align-items: center;
@@ -261,13 +259,13 @@ body {
 }
 
 .footer p {
-  font-size: 0.95em;
-  margin-bottom: 8px;
+  font-size: 0.85em;
+  margin-bottom: 6px;
 }
 
 .social {
-  gap: 15px;
-  margin-top: 12px;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 .social-link {
@@ -280,8 +278,8 @@ body {
 }
 
 .social-link svg {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   fill: white;
   transition: var(--transition);
   background: var(--gradient-primary);
@@ -294,27 +292,29 @@ body {
 
 /* Blog post specific styles */
 .blog-post-content h2 {
-  margin-top: 30px;
-  margin-bottom: 15px;
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 10px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.8em;
 }
 
 .blog-post-content p {
-  margin-bottom: 20px;
-  line-height: 1.8;
+  font-size: 0.9em;
+  margin-bottom: 12px;
+  line-height: 1.5;
   color: #555;
 }
 
 .blog-post-content ul {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 .blog-post-content li {
-  margin-bottom: 12px;
+  font-size: 0.9em;
+  margin-bottom: 8px;
   color: #555;
 }
 
@@ -325,19 +325,19 @@ body {
 
 .platform-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-  margin-top: 12px;
-  max-width: 750px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 8px;
+  padding: 0 5px;
 }
 
 .platform-card {
   background: var(--gradient-card);
-  padding: 10px;
-  border-radius: 8px;
+  padding: 8px;
+  border-radius: 6px;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
   text-align: center;
@@ -355,25 +355,25 @@ body {
 }
 
 .platform-card img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .platform-card h4 {
-  font-size: 1.1em;
-  margin-bottom: 8px;
+  font-size: 0.95em;
+  margin-bottom: 6px;
 }
 
 .platform-card p {
-  font-size: 0.9em;
-  margin-bottom: 8px;
+  font-size: 0.8em;
+  margin-bottom: 6px;
 }
 
 .platform-link {
-  padding: 6px 15px;
-  font-size: 0.9em;
+  padding: 4px 12px;
+  font-size: 0.8em;
 }
 
 /* Add gradient background to buttons */
