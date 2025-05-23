@@ -25,6 +25,9 @@ body {
   color: var(--text-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .navigation {
@@ -38,9 +41,6 @@ body {
   background: var(--gradient-primary);
   box-shadow: var(--box-shadow);
   border-radius: 15px;
-  position: sticky;
-  top: 20px;
-  z-index: 1000;
 }
 
 .nav-left {
@@ -135,6 +135,9 @@ body {
   background: var(--gradient-card);
   border-radius: 20px;
   box-shadow: var(--box-shadow);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-left {
@@ -179,6 +182,9 @@ body {
   position: relative;
   border-radius: 20px;
   box-shadow: var(--box-shadow);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-articles h2 {
@@ -199,6 +205,9 @@ body {
   transition: var(--transition);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(52, 152, 219, 0.1);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-article:hover {
@@ -209,6 +218,8 @@ body {
 
 .home-article img {
   width: 300px;
+  min-width: 300px;
+  height: 200px;
   border-radius: 15px;
   object-fit: cover;
   transition: var(--transition);
@@ -313,9 +324,13 @@ body {
 
 .platform-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   margin-top: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
 .platform-card {
@@ -326,6 +341,10 @@ body {
   transition: var(--transition);
   text-align: center;
   border: 1px solid rgba(52, 152, 219, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .platform-card:hover {
