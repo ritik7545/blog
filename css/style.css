@@ -335,7 +335,7 @@ body {
 
 .platform-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin-top: 8px;
   max-width: 600px;
@@ -367,8 +367,8 @@ body {
 }
 
 .platform-card img {
-  width: 32px;
-  height: 32px;
+  width: 80px;
+  height: 40px;
   object-fit: contain;
   margin: 0 auto 4px;
   display: block;
@@ -429,7 +429,7 @@ body {
   }
 
   .platform-card img {
-    width: 28px;
-    height: 28px;
+    width: 70px;
+    height: 35px;
   }
 }
