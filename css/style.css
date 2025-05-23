@@ -357,6 +357,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 130px;
+  position: relative;
 }
 
 .platform-card:hover {
@@ -369,25 +370,35 @@ body {
   width: 32px;
   height: 32px;
   object-fit: contain;
-  margin-bottom: 4px;
+  margin: 0 auto 4px;
+  display: block;
+  max-width: 100%;
+  padding: 2px;
 }
 
 .platform-card h4 {
   font-size: 0.85em;
   margin-bottom: 4px;
   line-height: 1.2;
+  padding: 0 2px;
 }
 
 .platform-card p {
   font-size: 0.7em;
   margin-bottom: 4px;
   line-height: 1.2;
+  padding: 0 2px;
 }
 
 .platform-link {
   padding: 3px 8px;
   font-size: 0.7em;
   margin-top: 4px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 /* Add gradient background to buttons */
@@ -415,5 +426,10 @@ body {
   
   .platform-card {
     min-height: 120px;
+  }
+
+  .platform-card img {
+    width: 28px;
+    height: 28px;
   }
 }
