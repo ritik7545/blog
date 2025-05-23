@@ -25,22 +25,22 @@ body {
   color: var(--text-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .navigation {
-  margin-top: 25px;
+  margin-top: 20px;
   font-family: var(--font1);
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
+  padding: 0 4%;
   background: var(--gradient-primary);
   box-shadow: var(--box-shadow);
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 .nav-left {
@@ -51,8 +51,8 @@ body {
 }
 
 .nav-left span {
-  font-size: 35px;
-  padding-top: 10px;
+  font-size: 30px;
+  padding-top: 8px;
 }
 
 .nav-left span img {
@@ -69,13 +69,13 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
-  font-size: 22px;
-  padding-bottom: 23px;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 .nav-left ul li {
   list-style: none;
-  margin: 0 14px;
+  margin: 0 12px;
   font-family: var(--font2);
   transition: var(--transition);
   
@@ -108,8 +108,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: var(--gradient-primary);
   transition: var(--transition);
@@ -121,21 +121,21 @@ body {
 }
 
 .nav-social .social-link svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   fill: white;
 }
 
 .content {
   height: 100%;
   display: flex;
-  margin-top: 25px;
-  padding: 25px;
+  margin-top: 20px;
+  padding: 20px;
   position: relative;
   background: var(--gradient-card);
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: var(--box-shadow);
-  max-width: 1000px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -145,13 +145,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 35px;
+  padding: 25px;
   z-index: 1;
 }
 
 .content-left h1 {
-  font-size: 2.2em;
-  margin-bottom: 15px;
+  font-size: 2em;
+  margin-bottom: 12px;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -165,20 +165,20 @@ body {
 }
 
 .content-right img {
-  height: 300px;
-  border-radius: 20px;
+  height: 250px;
+  border-radius: 15px;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
 }
 
 .home-articles {
-  padding: 25px;
+  padding: 20px;
   background: var(--gradient-card);
-  margin-top: 20px;
+  margin-top: 15px;
   position: relative;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: var(--box-shadow);
-  max-width: 1000px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -194,14 +194,14 @@ body {
 
 .home-article {
   display: flex;
-  margin: 20px;
-  padding: 20px;
+  margin: 15px;
+  padding: 15px;
   background: var(--gradient-card);
-  border-radius: 15px;
+  border-radius: 12px;
   transition: var(--transition);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(52, 152, 219, 0.1);
-  max-width: 900px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -213,10 +213,10 @@ body {
 }
 
 .home-article img {
-  width: 250px;
-  min-width: 250px;
-  height: 180px;
-  border-radius: 15px;
+  width: 200px;
+  min-width: 200px;
+  height: 150px;
+  border-radius: 12px;
   object-fit: cover;
   transition: var(--transition);
 }
@@ -320,19 +320,19 @@ body {
 
 .platform-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-  max-width: 1000px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .platform-card {
   background: var(--gradient-card);
-  padding: 15px;
-  border-radius: 15px;
+  padding: 12px;
+  border-radius: 12px;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
   text-align: center;
@@ -350,10 +350,10 @@ body {
 }
 
 .platform-card img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .platform-card h4 {
